@@ -34,6 +34,7 @@ Make a cool UI (image or video, but WEBGL hates videos) for when players die (ra
 Make the voting UI better and cleaner.  
 Clean up the player list UI.  
 Add in a font that matches the aesthetic for all text in the game.
+
 **Backlog:**
 Add in destructive and helpful versions of these abilities:   
 Mayor: (currently has mayor's basement for helpful, but if destructive, you will be able to sacrifice the player to WiggleBlorp) 
