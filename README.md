@@ -20,6 +20,32 @@ https://chrislsound.itch.io/fantasy-towns-music-pack
 
 **10/21/24:**
 **What was done:**
+Made the voting UI cleaner and better by adding a background image, adding an image to the button, and adding some text to explain it. 
+Added in font everywhere that matches the game’s aesthetic. (similar to Luigi’s Mansion)
+Added in the town scene at the title screen with lighting and effects. This will be used later for animations. 
+Added in a keyboard image with all controls into Controls in title screen
+Added theme music to the title screen. 
+Added in abilities for:
+Clairvoyant: Can check two players to see if they are friends or enemies with each other. (Will not reveal neutral role)
+Assistant: Can check the alignment of a player. (Will reveal neutral role)
+Detective: Can watch one player for a night to see what actions they take. (Even if they take the action before or after you investigate them)
+Old Man: Vote counts for two votes when they vote. 
+Villager: Can attack a player for 1/4th heart. 
+Added in new spawn points so players stopped spawning on top of each other. 
+Added in text UI for when you are attacked or healed, just so you know why your hearts randomly go up or drop. (this currently isn’t working, not sure why the RPC calls are being messed up)
+Added new UI for each ability to differentiate them. 
+Added in functionality for the shield, so if it is used at night, it will block any attacks (currently poison or other damage). It will not block you from being poisoned though, just from not being damaged for one instance. 
+Items will be removed from inventory after use. 
+Poison damage and villager damage are still a bit buggy, usually it will attack you for twice the amount with poison damage on the first day it happens. Sometimes it will correctly attack you for the right amount. 
+Added in randomized death image newspapers for when players die to make it more fun. Player’s name that died will appear in the newspaper. There are around 7 different newspapers to get!
+Player UI List thing is still messed up, spacing is weird. 
+Knife is still buggy, but it might work. Made sure it leaves the inventory when done with and that it has everything in place to work. 
+Changed the player and party room texts to fit the theme of the game. 
+Added in the 1 button to toggle player movement on and off. 
+
+Backlog for next week: 
+Changing players from disconnecting to spectating as ghosts (make sure in every loop that calls playerList that it also checks to make sure they aren’t dead.)
+Add in their roles into the newspaper if they die too (and eventually their profile picture image)
 
 **To Do:**
 Add in abilities for the rest of the roles that get them:  
